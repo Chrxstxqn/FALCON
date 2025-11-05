@@ -1,0 +1,130 @@
+# FALCON Requirements
+# Flexible Authentication Login Cracking & Optimized Node
+
+# Python Version
+# Requires Python 3.7 or higher
+
+## System Dependencies
+
+### Required
+- hashcat (password cracking engine)
+  Installation on Debian/Ubuntu:
+  ```
+  sudo apt install hashcat
+  ```
+
+### Optional: GPU Support
+
+#### For NVIDIA GPUs
+```
+sudo apt install nvidia-utils nvidia-driver-XXX
+sudo apt install nvidia-cuda-toolkit
+```
+
+#### For AMD GPUs
+```
+sudo apt install rocm-hip
+```
+
+#### For Intel GPUs
+```
+sudo apt install intel-compute-runtime
+```
+
+## Python Standard Library (No external pip packages required!)
+
+FALCON uses only Python built-in modules:
+- subprocess (for executing hashcat commands)
+- os (for system operations)
+- sys (for system-specific parameters)
+- pathlib (for file path handling)
+- typing (for type hints)
+- shutil (for file and command utilities)
+- time (for animation timing)
+
+All modules are built-in with Python 3.7+, no additional installation needed!
+
+## Installation Steps
+
+### 1. Install Hashcat
+```bash
+sudo apt update
+sudo apt install hashcat
+```
+
+Verify installation:
+```bash
+hashcat --version
+```
+
+### 2. (Optional) Install GPU Drivers
+For GPU acceleration, install the appropriate drivers for your hardware.
+
+### 3. Download FALCON
+```bash
+git clone https://github.com/Chrxstxqn/FALCON
+cd FALCON
+```
+
+### 4. Make FALCON Executable
+```bash
+chmod +x falcon.py
+```
+
+### 5. Run FALCON
+```bash
+python3 falcon.py
+# or
+./falcon.py
+```
+
+## Troubleshooting
+
+### Hashcat not found
+If you get "Hashcat not found in PATH":
+```bash
+which hashcat
+# If empty, hashcat is not installed. Run:
+sudo apt install hashcat
+```
+
+### GPU Not Detected
+If hashcat doesn't detect your GPU:
+1. Verify GPU drivers are installed: `nvidia-smi` (NVIDIA) or `rocm-smi` (AMD)
+2. Check FALCON GPU setting in the configuration menu (option 7)
+3. Ensure you have the latest GPU drivers
+
+### Permission Denied
+If you get permission errors:
+```bash
+sudo chmod +x falcon.py
+sudo python3 falcon.py
+```
+
+Or use without sudo by adjusting file permissions:
+```bash
+chmod +x falcon.py
+./falcon.py
+```
+
+## Minimum System Requirements
+
+- CPU: Dual-core processor or better
+- RAM: 2GB minimum (4GB+ recommended)
+- Storage: 1GB for wordlists and dictionaries
+- GPU: Optional but recommended for better performance
+
+## Supported Operating Systems
+
+- Debian 10+
+- Ubuntu 18.04+
+- Linux Mint
+- Elementary OS
+- Any Debian-based distribution
+
+## Notes
+
+- FALCON is a wrapper around hashcat, not a replacement
+- Always ensure you have permission to crack hashes you are testing
+- GPU acceleration significantly improves performance for certain hash types
+- The workload setting affects speed and system resource usage (1=low, 4=nightmare)

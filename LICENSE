@@ -1,0 +1,103 @@
+MIT License
+
+Copyright (c) 2025 FALCON Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## DISCLAIMER - IMPORTANT LEGAL NOTICE
+
+FALCON is a terminal user interface wrapper for hashcat provided for authorized
+security testing, educational, and authorized penetration testing purposes only.
+
+### User Responsibilities
+
+1. **Authorization**: Users must obtain explicit written permission before testing
+   any systems, passwords, or hashes not owned by them.
+
+2. **Legal Compliance**: Users are solely responsible for ensuring their use of
+   FALCON complies with all applicable laws and regulations in their jurisdiction.
+
+3. **Prohibited Uses**: Users may NOT use FALCON for:
+   - Unauthorized password cracking or hash cracking
+   - Unauthorized access to computer systems
+   - Malicious activities
+   - Violating privacy laws
+   - Any illegal purpose
+
+4. **Professional Use**: Security professionals and penetration testers must:
+   - Have valid written authorization from system owners
+   - Maintain proper documentation of testing
+   - Follow responsible disclosure practices
+   - Comply with professional codes of ethics
+
+### No Warranty
+
+This software is provided "as-is" without any warranty. The authors are not
+responsible for any damage, data loss, or legal issues arising from the use
+or misuse of FALCON.
+
+### Limitation of Liability
+
+In no event shall the authors or copyright holders be liable for any direct,
+indirect, incidental, special, exemplary, or consequential damages (including,
+but not limited to, procurement of substitute goods or services; loss of use,
+data, or profits; or business interruption) however caused and on any theory
+of liability, whether in contract, strict liability, or tort (including
+negligence or otherwise) arising in any way out of the use of this software.
+
+### Third-Party Software
+
+FALCON is a wrapper around hashcat. Users must comply with hashcat's license
+and terms of use. FALCON authors are not responsible for hashcat's functionality
+or legality of its use in any specific jurisdiction.
+
+### Acknowledgments
+
+FALCON wraps and provides a user interface for hashcat, developed by the hashcat team.
+Hashcat is released under its own license terms which must be followed.
+
+---
+
+## Educational Use Only (Academic Settings)
+
+If you are using FALCON in an educational setting:
+- Ensure proper institutional approval
+- Use only with authorized lab environments
+- Document all testing activities
+- Follow your institution's security policy
+- Obtain proper training before use
+
+---
+
+By using FALCON, you acknowledge that you have read this license and disclaimer,
+understand its terms and conditions, and agree to comply with all applicable laws
+and regulations in your jurisdiction.
+
+If you do not agree with these terms, do not use FALCON.
+
+---
+
+## Questions About Licensing?
+
+For licensing questions or if you need clarification about permitted uses,
+please contact the project maintainers.
+
+Last Updated: November 2025
