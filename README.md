@@ -7,7 +7,7 @@
     ██╔══╝  ██╔══██║██║     ██║     ██║   ██║██║╚██╗██║
     ██║     ██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║
     ╚═╝     ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
-
+                    by Chrxstxqn
     Flexible Authentication Login Cracking & Optimized Node
     v1.0 - Terminal User Interface (TUI) for Hashcat
 ```
@@ -70,7 +70,7 @@ sudo apt install hashcat
 
 2. **Scarica FALCON**:
 ```bash
-git clone <https://github.com/Chrxstxqn/FALCON>
+git clone https://github.com/Chrxstxqn/FALCON
 cd FALCON
 ```
 
